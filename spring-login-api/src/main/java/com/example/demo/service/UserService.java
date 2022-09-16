@@ -7,4 +7,5 @@ import com.example.demo.model.UserModel;
 
 public interface UserService {
 	public User registerUser(UserModel userModel);
+	void sendVerficationTokenForUser(String token,User user);
 }

@@ -4,6 +4,9 @@ import org.springframework.context.ApplicationEvent;
 
 import com.example.demo.entity.User;
 
+import lombok.Data;
+
+@Data
 public class RegistrationCompleteEvent extends ApplicationEvent {
 	
 	private User user;
